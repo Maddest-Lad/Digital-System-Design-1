@@ -1,0 +1,180 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eand4
+Z0 w1618423987
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+Z3 dC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11
+Z4 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd
+Z5 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd
+l0
+L5 1
+V9kkh7JY_97hzl_TFWlZ@f3
+!s100 kVF=<OP1>BXOA=5RRVSeU2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1618424416
+!i10b 1
+Z8 !s108 1618424416.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd|
+Z10 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adataflow
+R1
+R2
+DEx4 work 4 and4 0 22 9kkh7JY_97hzl_TFWlZ@f3
+!i122 14
+l11
+Z13 L10 4
+V1lRhR6`nI=z1AmaDD1hfb0
+!s100 J80mia2SOGRNNMo<Gf1c13
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux4
+w1618424395
+R1
+R2
+!i122 15
+R3
+8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd
+FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd
+l0
+L5 1
+V`9CV`[o2TLI_9ga0>_jM;3
+!s100 EUbCIoD^^2KIl^AV^R4cB2
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd|
+!s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd|
+!i113 1
+R11
+R12
+Enot1
+Z14 w1618424163
+R1
+R2
+!i122 18
+R3
+Z15 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd
+Z16 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd
+l0
+L5 1
+VHTR@_mf7VTEf743Cf]ET_3
+!s100 aD@X06?=W:;BUkgl5aP5b0
+R6
+32
+Z17 !s110 1618424417
+!i10b 1
+Z18 !s108 1618424417.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd|
+Z20 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+Z21 DEx4 work 4 not1 0 22 HTR@_mf7VTEf743Cf]ET_3
+!i122 18
+l11
+R13
+Z22 VNfT4dFjVo3z[D71SQGIXB2
+Z23 !s100 _h5ZHk[]o;GfA4^>?fi2P0
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Eor4
+R0
+R1
+R2
+!i122 16
+R3
+Z24 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd
+Z25 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd
+l0
+L5 1
+V[7LABF=XP=[ScGozbDZ^E3
+!s100 ;2:SmdVL@OBQZ?iA>gXd?1
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd|
+Z27 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 3 or4 0 22 [7LABF=XP=[ScGozbDZ^E3
+!i122 16
+l11
+R13
+Vde_]6R7R@<BTXHlOke0A<0
+!s100 bkIEeYAV[zQLU[YScj7lm1
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Etb
+w1618424030
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 17
+R3
+8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd
+FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd
+l0
+L5 1
+VVQ^BPFO=MWzIF67kDIP[D3
+!s100 ni24gHCiWf@HP1DHMZfQF2
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd|
+!s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd|
+!i113 1
+R11
+R12

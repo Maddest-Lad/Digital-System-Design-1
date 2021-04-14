@@ -2,14 +2,14 @@ library ieee;
 use ieee.std_logic_1164.all;
 
 -- Constructor
-entity Multiplexer4 is
+entity Mux4 is
 	port(G1, G2, A, B : in std_logic;
 		C1, C2 : in  std_logic_vector(3 downto 0);
 		Y1, Y2 : out std_logic);
-end Multiplexer4;
+end Mux4;
 
 -- DataFlow
-architecture dataflow of Multiplexer4 is
+architecture dataflow of Mux4 is
 
 begin
 
@@ -21,7 +21,7 @@ begin
 		C1(1) when "001",
 		C1(2) when "010",
 		C1(3) when "011",
-		'0' when others;
+		'0'   when others;
 
 	-- Second Multiplexer
 	sControl1 <= (G2 and A and B);
@@ -31,17 +31,17 @@ begin
 		C2(1) when "001",
 		C2(2) when "010",
 		C2(3) when "011",
-		'0' when others;
+		'0'   when others;
 
 end architecture dataflow;
 
 
 -- Behavioural
-architecture behavioural of Multiplexer4 is
+architecture behavioural of Mux4 is
 
 begin
 
-	process(G1, A, B, C1)
+	p1 : process(G1, A, B, C1)
 
 		variable vControl1 : std_logic_vector (2 downto 0) := "000";
 
@@ -56,9 +56,9 @@ begin
 		end case;
 
 
-	end process;
+	end process p1;
 
-	process(G2, A, B, C2)
+	p2 : process(G2, A, B, C2)
 
 		variable vControl2 : std_logic_vector (2 downto 0) := "000";
 
@@ -73,7 +73,7 @@ begin
 		end case;
 
 
-	end process;
+	end process p2;
 
 
 
@@ -83,7 +83,7 @@ end architecture behavioural;
 
 
 -- Structure
-architecture struct of Multiplexer4 is
+architecture struct of Mux4 is
 
 	-- Component Declarations
 	component and4 is

@@ -13,7 +13,7 @@ Eand4
 Z0 w1618423987
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 14
+!i122 211
 Z3 dC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11
 Z4 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd
 Z5 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd
@@ -23,9 +23,9 @@ V9kkh7JY_97hzl_TFWlZ@f3
 !s100 kVF=<OP1>BXOA=5RRVSeU2
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1618424416
+Z7 !s110 1618428103
 !i10b 1
-Z8 !s108 1618424416.000000
+Z8 !s108 1618428103.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd|
 Z10 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/and4.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Adataflow
 R1
 R2
 DEx4 work 4 and4 0 22 9kkh7JY_97hzl_TFWlZ@f3
-!i122 14
+!i122 211
 l11
 Z13 L10 4
 V1lRhR6`nI=z1AmaDD1hfb0
@@ -51,58 +51,36 @@ R10
 R11
 R12
 Emux4
-w1618424395
+Z14 w1618427863
 R1
 R2
-!i122 15
+!i122 215
 R3
-8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd
-FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd
+Z15 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/Mux4.vhd
+Z16 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/Mux4.vhd
 l0
 L5 1
 V`9CV`[o2TLI_9ga0>_jM;3
 !s100 EUbCIoD^^2KIl^AV^R4cB2
 R6
 32
-R7
+Z17 !s110 1618428104
 !i10b 1
-R8
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd|
-!s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/multiplexer.vhd|
+Z18 !s108 1618428104.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/Mux4.vhd|
+Z20 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/Mux4.vhd|
 !i113 1
 R11
 R12
-Enot1
-Z14 w1618424163
+Astruct
 R1
 R2
-!i122 18
-R3
-Z15 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd
-Z16 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd
-l0
-L5 1
-VHTR@_mf7VTEf743Cf]ET_3
-!s100 aD@X06?=W:;BUkgl5aP5b0
-R6
-32
-Z17 !s110 1618424417
-!i10b 1
-Z18 !s108 1618424417.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd|
-Z20 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd|
-!i113 1
-R11
-R12
-Adataflow
-R1
-R2
-Z21 DEx4 work 4 not1 0 22 HTR@_mf7VTEf743Cf]ET_3
-!i122 18
-l11
-R13
-Z22 VNfT4dFjVo3z[D71SQGIXB2
-Z23 !s100 _h5ZHk[]o;GfA4^>?fi2P0
+Z21 DEx4 work 4 mux4 0 22 `9CV`[o2TLI_9ga0>_jM;3
+!i122 215
+l109
+Z22 L87 50
+Z23 Vm43eNznV0Ig66lZTa]@`63
+Z24 !s100 NheW:B1zkKTDMU[aoz@d]0
 R6
 32
 R17
@@ -113,25 +91,104 @@ R20
 !i113 1
 R11
 R12
+Abehavioural
+R1
+R2
+R21
+!i122 215
+l43
+Z25 L41 41
+Z26 VX3h6B0O1P1nGUz3=4Y1k`3
+Z27 !s100 Ll1knKWKJ_R`7RG`Y8YMj2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+R21
+!i122 215
+l16
+Z28 L12 26
+Z29 V9:ig`K@2eeRh^>Mc`MNUz1
+Z30 !s100 ^GW@6n5@g[4:D`NF7XF8_3
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Enot1
+Z31 w1618424163
+R1
+R2
+!i122 214
+R3
+Z32 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd
+Z33 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd
+l0
+L5 1
+VHTR@_mf7VTEf743Cf]ET_3
+!s100 aD@X06?=W:;BUkgl5aP5b0
+R6
+32
+R17
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd|
+Z35 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/not1.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 4 not1 0 22 HTR@_mf7VTEf743Cf]ET_3
+!i122 214
+l11
+R13
+VNfT4dFjVo3z[D71SQGIXB2
+!s100 _h5ZHk[]o;GfA4^>?fi2P0
+R6
+32
+R17
+!i10b 1
+R18
+R34
+R35
+!i113 1
+R11
+R12
 Eor4
 R0
 R1
 R2
-!i122 16
+!i122 212
 R3
-Z24 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd
-Z25 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd
+Z36 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd
+Z37 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd
 l0
 L5 1
 V[7LABF=XP=[ScGozbDZ^E3
 !s100 ;2:SmdVL@OBQZ?iA>gXd?1
 R6
 32
-R7
+R17
 !i10b 1
 R8
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd|
-Z27 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd|
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd|
+Z39 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/or4.vhd|
 !i113 1
 R11
 R12
@@ -139,42 +196,64 @@ Adataflow
 R1
 R2
 DEx4 work 3 or4 0 22 [7LABF=XP=[ScGozbDZ^E3
-!i122 16
+!i122 212
 l11
 R13
 Vde_]6R7R@<BTXHlOke0A<0
 !s100 bkIEeYAV[zQLU[YScj7lm1
 R6
 32
-R7
+R17
 !i10b 1
 R8
-R26
-R27
+R38
+R39
 !i113 1
 R11
 R12
 Etb
-w1618424030
-DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z40 w1618428095
+Z41 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z42 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R1
 R2
-!i122 17
+!i122 213
 R3
-8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd
-FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd
+Z43 8C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd
+Z44 FC:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd
 l0
 L5 1
 VVQ^BPFO=MWzIF67kDIP[D3
 !s100 ni24gHCiWf@HP1DHMZfQF2
 R6
 32
-R7
+R17
 !i10b 1
-R8
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd|
-!s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd|
+R18
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd|
+Z46 !s107 C:/Users/samha/OneDrive/Desktop/Digital-System-Design-1/Exercise 11/tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R21
+R41
+R42
+R1
+R2
+DEx4 work 2 tb 0 22 VQ^BPFO=MWzIF67kDIP[D3
+!i122 213
+l32
+L9 50
+Vl^;UW_:ZGUo<Z4fMU58:?1
+!s100 N:WC_DkGg9b^g_8a5z0GI3
+R6
+32
+R17
+!i10b 1
+R18
+R45
+R46
 !i113 1
 R11
 R12

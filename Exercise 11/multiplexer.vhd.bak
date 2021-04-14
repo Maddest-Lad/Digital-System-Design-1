@@ -11,10 +11,11 @@ end Mux4;
 -- DataFlow
 architecture dataflow of Mux4 is
 
-begin
+	signal sControl1, sControl2 : std_logic_vector(2 downto 0) := "000";
 
+begin
 	-- First Multiplexer
-	sControl1 <= (G1 and A and B);
+	sControl1 <= G1 & A & B;
 	with sControl1 select
 
 	Y1 <= C1(0) when "000",
@@ -24,7 +25,7 @@ begin
 		'0'   when others;
 
 	-- Second Multiplexer
-	sControl2 <= (G2 and A and B);
+	sControl2 <= G2 & A & B;
 	with sControl2 select
 
 	Y2 <= C2(0) when "000",
@@ -41,12 +42,12 @@ architecture behavioural of Mux4 is
 
 begin
 
-	p1 : process(G1, A, B, C1)
+	process(G1, A, B, C1)
 
 		variable vControl1 : std_logic_vector (2 downto 0) := "000";
 
 	begin
-		vControl1 := (G1 and A and B);
+		vControl1 := (G1 & A & B);
 		case vControl1 is
 			when "000"  => Y1 <= C1(0) after 22ns;
 			when "001"  => Y1 <= C1(1) after 22ns;
@@ -56,14 +57,14 @@ begin
 		end case;
 
 
-	end process p1;
+	end process;
 
-	p2 : process(G2, A, B, C2)
+	process(G2, A, B, C2)
 
 		variable vControl2 : std_logic_vector (2 downto 0) := "000";
 
 	begin
-		vControl1 := (G2 and A and B);
+		vControl2 := (G2 & A & B);
 		case vControl2 is
 			when "000"  => Y2 <= C2(0) after 22ns;
 			when "001"  => Y2 <= C2(1) after 22ns;
@@ -73,7 +74,7 @@ begin
 		end case;
 
 
-	end process p2;
+	end process;
 
 
 
@@ -130,7 +131,7 @@ begin
 		and4_6 : and4 port map (A => not_G2, B => not_not_B, C => not_A, D => C2(2), Y => and_6);
 		and4_7 : and4 port map (A => not_G2, B => not_not_B, C => not_not_A, D => C2(3), Y => and_7);
 
-		output_Y2 : or4 port map(A => and4, B => and_5, C => and_6, D => and_7, Y => Y2);
+		output_Y2 : or4 port map(A => and_4, B => and_5, C => and_6, D => and_7, Y => Y2);
 
 end architecture struct;
 

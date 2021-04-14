@@ -1,0 +1,3 @@
+force A 0 0 ns, 1 50 ns -repeat 100 ns
+force B 0 0 ns, 1 100 ns -repeat 200 ns
+force Cin 0 0 ns, 1 200 ns -repeat 400 ns

@@ -1,0 +1,341 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/samha/OneDrive/Desktop/ex8
+Eand2
+Z0 w1617795530
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 120
+Z3 dC:/Users/samha/OneDrive/Desktop/FA
+Z4 8C:/Users/samha/OneDrive/Desktop/FA/and2.vhd
+Z5 FC:/Users/samha/OneDrive/Desktop/FA/and2.vhd
+l0
+L4 1
+V>D9AJU=fz5MoQ0;c^iELV3
+!s100 @5UE>UlXGkcfb]QWW271U2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1617796253
+!i10b 1
+Z8 !s108 1617796253.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/and2.vhd|
+Z10 !s107 C:/Users/samha/OneDrive/Desktop/FA/and2.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adf
+R1
+R2
+DEx4 work 4 and2 0 22 >D9AJU=fz5MoQ0;c^iELV3
+!i122 120
+l10
+L9 4
+V=]lIU<KgWL1?4k0^0jmI]2
+!s100 :FKI:UR5V<o`MU:nP?Bl]3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efull_adder
+Z13 w1617795503
+R1
+R2
+!i122 119
+R3
+Z14 8C:/Users/samha/OneDrive/Desktop/FA/fulladder.vhd
+Z15 FC:/Users/samha/OneDrive/Desktop/FA/fulladder.vhd
+l0
+L24 1
+V4cGVQ0Nm;HFU7gTj[o1z@1
+!s100 kAdeGDe9>Xe<YYLOKiMbG0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/fulladder.vhd|
+Z17 !s107 C:/Users/samha/OneDrive/Desktop/FA/fulladder.vhd|
+!i113 1
+R11
+R12
+Ahaddor
+R1
+R2
+Z18 DEx4 work 10 full_adder 0 22 4cGVQ0Nm;HFU7gTj[o1z@1
+!i122 119
+l96
+L82 21
+VTYj21P]_SDVMn1Ka^?[oW3
+!s100 =2kZ<z4SHzT3???Xk@oR23
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+R18
+!i122 119
+l70
+L51 28
+V1LQS;QG=PiJK=jnbXgThB1
+!s100 fF;;>4^]=gXdlR1YXCmVH2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Adf
+R1
+R2
+R18
+!i122 119
+l37
+L33 17
+VEBZP=D8QA;YmE@>N1>5G_2
+!s100 :?FVPWlHCnIOGC9:^ZC]Y0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ehadder
+Z19 w1617795515
+R1
+R2
+!i122 123
+R3
+Z20 8C:/Users/samha/OneDrive/Desktop/FA/hadder.vhd
+Z21 FC:/Users/samha/OneDrive/Desktop/FA/hadder.vhd
+l0
+L5 1
+V2zk[0immCRYJ1fLS]Q:Ij0
+!s100 ^JRbTzlSMAliNVmCHT5_O2
+R6
+32
+Z22 !s110 1617796256
+!i10b 1
+Z23 !s108 1617796256.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/hadder.vhd|
+Z25 !s107 C:/Users/samha/OneDrive/Desktop/FA/hadder.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 6 hadder 0 22 2zk[0immCRYJ1fLS]Q:Ij0
+!i122 123
+l13
+L12 5
+VNHDo^LmRDTkVU@Q]]aH`T2
+!s100 `RGf5NKi0hSQ?_b=[>>Ab2
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12
+Eor3
+Z26 w1617795525
+R1
+R2
+!i122 121
+R3
+Z27 8C:/Users/samha/OneDrive/Desktop/FA/or3.vhd
+Z28 FC:/Users/samha/OneDrive/Desktop/FA/or3.vhd
+l0
+L4 1
+VA0GU;5nL>2VDf5`V9U0b62
+!s100 VaIUG;h8U=MVmRQTHQiP50
+R6
+32
+Z29 !s110 1617796254
+!i10b 1
+Z30 !s108 1617796254.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/or3.vhd|
+Z32 !s107 C:/Users/samha/OneDrive/Desktop/FA/or3.vhd|
+!i113 1
+R11
+R12
+Adf
+R1
+R2
+DEx4 work 3 or3 0 22 A0GU;5nL>2VDf5`V9U0b62
+!i122 121
+l10
+L9 4
+Va91o>4OfUfno?Oj_NJB]k3
+!s100 =h>S=oZbazWz0SA@@`Se02
+R6
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Eor_gate
+Z33 w1617792765
+R1
+R2
+!i122 124
+R3
+Z34 8C:/Users/samha/OneDrive/Desktop/FA/or_gate.vhd
+Z35 FC:/Users/samha/OneDrive/Desktop/FA/or_gate.vhd
+l0
+L5 1
+V=Y4jd:j`4RQ<b6S5^3l1L1
+!s100 n[T5mPAn<gWPBfH44PgbA1
+R6
+32
+R22
+!i10b 1
+R23
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/or_gate.vhd|
+Z37 !s107 C:/Users/samha/OneDrive/Desktop/FA/or_gate.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 7 or_gate 0 22 =Y4jd:j`4RQ<b6S5^3l1L1
+!i122 124
+l12
+L11 4
+V=R6F2Aj6gS9GJmh?jQBSZ1
+!s100 0eg3J`YBIcO5XV8Mo[>eh0
+R6
+32
+R22
+!i10b 1
+R23
+R36
+R37
+!i113 1
+R11
+R12
+Etb
+Z38 w1617796249
+Z39 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z40 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 125
+R3
+Z41 8C:/Users/samha/OneDrive/Desktop/FA/tb.vhd
+Z42 FC:/Users/samha/OneDrive/Desktop/FA/tb.vhd
+l0
+L5 1
+VVQ^BPFO=MWzIF67kDIP[D3
+!s100 ni24gHCiWf@HP1DHMZfQF2
+R6
+32
+R22
+!i10b 1
+R23
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/tb.vhd|
+Z44 !s107 C:/Users/samha/OneDrive/Desktop/FA/tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R18
+R39
+R40
+R1
+R2
+Z45 DEx4 work 2 tb 0 22 VQ^BPFO=MWzIF67kDIP[D3
+!i122 125
+l34
+Z46 L9 60
+VKb_VhOS`NlCmj7]<k?`7Y1
+!s100 c:=QLY]E3E[3;mbEHUBX62
+R6
+32
+R22
+!i10b 1
+R23
+R43
+R44
+!i113 1
+R11
+R12
+Exor3
+Z47 w1617791169
+R1
+R2
+!i122 122
+R3
+Z48 8C:/Users/samha/OneDrive/Desktop/FA/xor3.vhd
+Z49 FC:/Users/samha/OneDrive/Desktop/FA/xor3.vhd
+l0
+L4 1
+VkUERU=fGfe^ZcGHz7:a@@3
+!s100 ^]mBeT[DI7?=`jWjc0B1E2
+R6
+32
+R22
+!i10b 1
+Z50 !s108 1617796255.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/samha/OneDrive/Desktop/FA/xor3.vhd|
+Z52 !s107 C:/Users/samha/OneDrive/Desktop/FA/xor3.vhd|
+!i113 1
+R11
+R12
+Adf
+R1
+R2
+DEx4 work 4 xor3 0 22 kUERU=fGfe^ZcGHz7:a@@3
+!i122 122
+l10
+L9 4
+V[]PK>JLWJ_V]l6^R]_SS?3
+!s100 `QfAZ?I@07FkQ8beDg79c1
+R6
+32
+R22
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R11
+R12
